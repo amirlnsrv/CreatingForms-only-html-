@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <meta charset="utf-8">
+        <title>Адаптивная верстка</title>
+    </head>
+        <body>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div>
+                    <p>Имя</p>
+                    <input tabindex="1" placeholder="Введите имя" type="text" name="username" id="">
+                </div>
+                <div>
+                    <p>Пароль</p>
+                    <input tabindex="2" placeholder="Введите пароль" type="password" name="userpass" id="">
+                </div>
+                <div>
+                    <p>Телефон</p>
+                    <input tabindex="3" placeholder="Введите Номер телефона" type="tel" name="userphone" id="">
+                </div>
+                <div>
+                    <p>Пол</p>
+                    <div>
+                        <input checked tabindex="4" type="radio" name="gender" value="male"> Мужской
+                    </div>
+                    <div>
+                        <input tabindex="4" type="radio" name="gender" value="female"> Женский
+                    </div>
+                </div>
+                <div>
+                    <p>Имущество</p>
+                    <div>
+                        <input tabindex="5" checked type="checkbox" name="bike" value="yes"> Велик
+                    </div>
+                    <div>
+                        <input tabindex="6" type="checkbox" name="car" value="yes"> Машина
+                    </div>
+                    <div>
+                        <input tabindex="7" disabled type="checkbox" name="appartaments" value="yes"> Квартира
+                    </div>
+                </div>
+                <div>
+                    <p>Доп. информация</p>
+                    <textarea tabindex="8" name="text"></textarea>
+                </div>
+                <div>
+                    <p>Прикрепить фото</p>
+                    <input tabindex="9" type="file" name="photo" value="yes"> 
+                </div>
+                <div>
+                    <p>Любимый цвет</p>
+                    <select tabindex="10" name="color">
+                        <option value="red">Красный</option>
+                        <option value="green">Зеленый</option>
+                        <option value="blue">Синий</option>
+                        <option selected value="yellow">Желтый</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Действия</p>
+                    <button tabindex="11" type="submit">Отправить</button>
+                    <button tabindex="12" type="reset">Очистить</button>
+                </div>
+            </form>
+        </body>
+</html>
